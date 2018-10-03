@@ -47,7 +47,7 @@ docker push poccciamatrsb/nginxama:v0.0.1
 docker push poccciamatrsb/wpama:v0.0.1
 ```
 
-On peut voir que nos images sont maintenant sur le docker hub:
+On peut voir que nos images sont maintenant sur le docker hub:  
 https://hub.docker.com/r/poccciamatrsb/
 
 ## Lancer la stack Docker
@@ -107,11 +107,6 @@ docker service ls
 docker service logs <SERVICE_NAME>
 ```
 
-## Modifier l'image wordpress pour intégrer vos développement
-
-Il faut éditer le fichier `Dockerfile-wpama`
-https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
-
 ## Nettoyer son environnement
 
 Pour remettre à plat votre machine de développement voici quelques commandes utiles:
@@ -127,7 +122,7 @@ docker volume prune
 
 ## Modifier l'image wordpress pour intégrer vos développement
 
-Il faut éditer le fichier `Dockerfile-wpama` :
+Il faut éditer le fichier `Dockerfile-wpama` :  
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
 ## Limitations du POC
